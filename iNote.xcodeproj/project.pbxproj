@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D77020120826F4700FB6A36 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77020020826F4700FB6A36 /* Anchor.swift */; };
+		1D770206208278F100FB6A36 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D770205208278F100FB6A36 /* NoteCell.swift */; };
+		1D77020820828C9500FB6A36 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77020720828C9500FB6A36 /* ViewModel.swift */; };
+		1D8ECF8320829E9D007CCD3B /* AddNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8ECF8220829E9D007CCD3B /* AddNoteController.swift */; };
+		1D8ECF8520829F75007CCD3B /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8ECF8420829F75007CCD3B /* AddNoteViewModel.swift */; };
 		1DD57F83208266CA00DCD1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57F82208266CA00DCD1BB /* AppDelegate.swift */; };
-		1DD57F85208266CA00DCD1BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57F84208266CA00DCD1BB /* ViewController.swift */; };
-		1DD57F88208266CA00DCD1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD57F86208266CA00DCD1BB /* Main.storyboard */; };
+		1DD57F85208266CA00DCD1BB /* NoteListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57F84208266CA00DCD1BB /* NoteListController.swift */; };
 		1DD57F8B208266CA00DCD1BB /* iNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57F89208266CA00DCD1BB /* iNote.xcdatamodeld */; };
 		1DD57F8D208266CA00DCD1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD57F8C208266CA00DCD1BB /* Assets.xcassets */; };
 		1DD57F90208266CA00DCD1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD57F8E208266CA00DCD1BB /* LaunchScreen.storyboard */; };
 		1DD57F9B208266CB00DCD1BB /* iNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57F9A208266CB00DCD1BB /* iNoteTests.swift */; };
 		1DD57FA6208266CB00DCD1BB /* iNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57FA5208266CB00DCD1BB /* iNoteUITests.swift */; };
+		1DD986EC2083D69E00A703BE /* Pods_iNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD986ED2083D69E00A703BE /* Pods_iNoteTests.framework */; };
+		60BEBB23E858610F1F808912 /* Pods_iNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A2532B467A66665795952C /* Pods_iNoteTests.framework */; };
+		6420BAB034EDA4FB677BEABC /* Pods_iNoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A52032F57EF52415A7752F2 /* Pods_iNoteUITests.framework */; };
+		68EC47C3368F9B8C9FE6B75E /* Pods_iNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728FE267FDEF5430D8527C04 /* Pods_iNote.framework */; };
+		E0310CD448323C1B302DDDFD /* Pods_iNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD986ED2083D69E00A703BE /* Pods_iNoteTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050A307BD29EC2CE9875F7E0 /* Pods-iNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iNoteUITests/Pods-iNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D77020020826F4700FB6A36 /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		1D770205208278F100FB6A36 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		1D77020720828C9500FB6A36 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1D8ECF8220829E9D007CCD3B /* AddNoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteController.swift; sourceTree = "<group>"; };
+		1D8ECF8420829F75007CCD3B /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
 		1DD57F7F208266CA00DCD1BB /* iNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD57F82208266CA00DCD1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DD57F84208266CA00DCD1BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DD57F87208266CA00DCD1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DD57F84208266CA00DCD1BB /* NoteListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListController.swift; sourceTree = "<group>"; };
 		1DD57F8A208266CA00DCD1BB /* iNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iNote.xcdatamodel; sourceTree = "<group>"; };
 		1DD57F8C208266CA00DCD1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD57F8F208266CA00DCD1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,15 @@
 		1DD57FA1208266CB00DCD1BB /* iNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD57FA5208266CB00DCD1BB /* iNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNoteUITests.swift; sourceTree = "<group>"; };
 		1DD57FA7208266CB00DCD1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD986ED2083D69E00A703BE /* Pods_iNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_iNoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		728FE267FDEF5430D8527C04 /* Pods_iNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4BEABA4E5A1326F19357E0 /* Pods-iNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iNote/Pods-iNote.debug.xcconfig"; sourceTree = "<group>"; };
+		7A52032F57EF52415A7752F2 /* Pods_iNoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iNoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8783B9B24CEE4E575045F3 /* Pods-iNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-iNote/Pods-iNote.release.xcconfig"; sourceTree = "<group>"; };
+		B928097CF320C780F1D1AF17 /* Pods-iNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iNoteTests/Pods-iNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C811B58827A0C01C94AFC0A5 /* Pods-iNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iNoteTests/Pods-iNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4A2532B467A66665795952C /* Pods_iNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iNoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BFBBEE03407C06D2B84105 /* Pods-iNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iNoteUITests/Pods-iNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD986EC2083D69E00A703BE /* Pods_iNoteTests.framework in Frameworks */,
+				68EC47C3368F9B8C9FE6B75E /* Pods_iNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BEBB23E858610F1F808912 /* Pods_iNoteTests.framework in Frameworks */,
+				E0310CD448323C1B302DDDFD /* Pods_iNoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +97,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6420BAB034EDA4FB677BEABC /* Pods_iNoteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D77020220826F5A00FB6A36 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1D77020020826F4700FB6A36 /* Anchor.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		1DD57F76208266CA00DCD1BB = {
 			isa = PBXGroup;
 			children = (
 				1DD57F81208266CA00DCD1BB /* iNote */,
+				1DD986EB2083CE7600A703BE /* System files */,
 				1DD57F99208266CB00DCD1BB /* iNoteTests */,
 				1DD57FA4208266CB00DCD1BB /* iNoteUITests */,
 				1DD57F80208266CA00DCD1BB /* Products */,
+				4ECB899B2FE93164B02B2A44 /* Pods */,
+				D686AFA658F235DD2E34CFCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +138,9 @@
 		1DD57F81208266CA00DCD1BB /* iNote */ = {
 			isa = PBXGroup;
 			children = (
-				1DD57F82208266CA00DCD1BB /* AppDelegate.swift */,
-				1DD57F84208266CA00DCD1BB /* ViewController.swift */,
-				1DD57F86208266CA00DCD1BB /* Main.storyboard */,
-				1DD57F8C208266CA00DCD1BB /* Assets.xcassets */,
-				1DD57F8E208266CA00DCD1BB /* LaunchScreen.storyboard */,
-				1DD57F91208266CB00DCD1BB /* Info.plist */,
-				1DD57F89208266CA00DCD1BB /* iNote.xcdatamodeld */,
+				1DD986E92083CE5700A703BE /* View */,
+				1DD986EA2083CE6000A703BE /* ViewModel */,
+				1D77020220826F5A00FB6A36 /* Helper */,
 			);
 			path = iNote;
 			sourceTree = "<group>";
@@ -128,6 +163,61 @@
 			path = iNoteUITests;
 			sourceTree = "<group>";
 		};
+		1DD986E92083CE5700A703BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DD57F84208266CA00DCD1BB /* NoteListController.swift */,
+				1D8ECF8220829E9D007CCD3B /* AddNoteController.swift */,
+				1D770205208278F100FB6A36 /* NoteCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DD986EA2083CE6000A703BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D77020720828C9500FB6A36 /* ViewModel.swift */,
+				1D8ECF8420829F75007CCD3B /* AddNoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DD986EB2083CE7600A703BE /* System files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD57F82208266CA00DCD1BB /* AppDelegate.swift */,
+				1DD57F8C208266CA00DCD1BB /* Assets.xcassets */,
+				1DD57F8E208266CA00DCD1BB /* LaunchScreen.storyboard */,
+				1DD57F91208266CB00DCD1BB /* Info.plist */,
+				1DD57F89208266CA00DCD1BB /* iNote.xcdatamodeld */,
+			);
+			path = "System files";
+			sourceTree = "<group>";
+		};
+		4ECB899B2FE93164B02B2A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A4BEABA4E5A1326F19357E0 /* Pods-iNote.debug.xcconfig */,
+				9F8783B9B24CEE4E575045F3 /* Pods-iNote.release.xcconfig */,
+				B928097CF320C780F1D1AF17 /* Pods-iNoteTests.debug.xcconfig */,
+				C811B58827A0C01C94AFC0A5 /* Pods-iNoteTests.release.xcconfig */,
+				F8BFBBEE03407C06D2B84105 /* Pods-iNoteUITests.debug.xcconfig */,
+				050A307BD29EC2CE9875F7E0 /* Pods-iNoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D686AFA658F235DD2E34CFCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD986ED2083D69E00A703BE /* Pods_iNoteTests.framework */,
+				728FE267FDEF5430D8527C04 /* Pods_iNote.framework */,
+				E4A2532B467A66665795952C /* Pods_iNoteTests.framework */,
+				7A52032F57EF52415A7752F2 /* Pods_iNoteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD57FAA208266CB00DCD1BB /* Build configuration list for PBXNativeTarget "iNote" */;
 			buildPhases = (
+				1764F6B6259A88A5BA50E5B9 /* [CP] Check Pods Manifest.lock */,
 				1DD57F7B208266CA00DCD1BB /* Sources */,
 				1DD57F7C208266CA00DCD1BB /* Frameworks */,
 				1DD57F7D208266CA00DCD1BB /* Resources */,
+				709EB2DCC47C13AF6614E1E3 /* [CP] Embed Pods Frameworks */,
+				CFA855AF13271209861AA34C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD57FAD208266CB00DCD1BB /* Build configuration list for PBXNativeTarget "iNoteTests" */;
 			buildPhases = (
+				02D76B8116DD8723A9F95BCF /* [CP] Check Pods Manifest.lock */,
 				1DD57F92208266CB00DCD1BB /* Sources */,
 				1DD57F93208266CB00DCD1BB /* Frameworks */,
 				1DD57F94208266CB00DCD1BB /* Resources */,
+				E7AC3442EFD6467A8000B7BF /* [CP] Embed Pods Frameworks */,
+				B10D2E58A1F32760AD5F47E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD57FB0208266CB00DCD1BB /* Build configuration list for PBXNativeTarget "iNoteUITests" */;
 			buildPhases = (
+				16E56AC37B2EF22499D3EFEE /* [CP] Check Pods Manifest.lock */,
 				1DD57F9D208266CB00DCD1BB /* Sources */,
 				1DD57F9E208266CB00DCD1BB /* Frameworks */,
 				1DD57F9F208266CB00DCD1BB /* Resources */,
+				AE5FE1453136AFE46D30D001 /* [CP] Embed Pods Frameworks */,
+				BF23A39E2B2B13F44F1EB9DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +336,6 @@
 			files = (
 				1DD57F90208266CA00DCD1BB /* LaunchScreen.storyboard in Resources */,
 				1DD57F8D208266CA00DCD1BB /* Assets.xcassets in Resources */,
-				1DD57F88208266CA00DCD1BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +355,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D76B8116DD8723A9F95BCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iNoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16E56AC37B2EF22499D3EFEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iNoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1764F6B6259A88A5BA50E5B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709EB2DCC47C13AF6614E1E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iNote/Pods-iNote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNote/Pods-iNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE5FE1453136AFE46D30D001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNoteUITests/Pods-iNoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B10D2E58A1F32760AD5F47E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNoteTests/Pods-iNoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF23A39E2B2B13F44F1EB9DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNoteUITests/Pods-iNoteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA855AF13271209861AA34C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNote/Pods-iNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7AC3442EFD6467A8000B7BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iNoteTests/Pods-iNoteTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNoteTests/Pods-iNoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DD57F7B208266CA00DCD1BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1DD57F8B208266CA00DCD1BB /* iNote.xcdatamodeld in Sources */,
-				1DD57F85208266CA00DCD1BB /* ViewController.swift in Sources */,
+				1DD57F85208266CA00DCD1BB /* NoteListController.swift in Sources */,
+				1D770206208278F100FB6A36 /* NoteCell.swift in Sources */,
+				1D77020120826F4700FB6A36 /* Anchor.swift in Sources */,
+				1D8ECF8520829F75007CCD3B /* AddNoteViewModel.swift in Sources */,
+				1D77020820828C9500FB6A36 /* ViewModel.swift in Sources */,
 				1DD57F83208266CA00DCD1BB /* AppDelegate.swift in Sources */,
+				1D8ECF8320829E9D007CCD3B /* AddNoteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +560,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1DD57F86208266CA00DCD1BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DD57F87208266CA00DCD1BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1DD57F8E208266CA00DCD1BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,39 +680,48 @@
 		};
 		1DD57FAB208266CB00DCD1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4BEABA4E5A1326F19357E0 /* Pods-iNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6F4AGE4B2;
-				INFOPLIST_FILE = iNote/Info.plist;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/pavangopal/Desktop/iNote/System files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
 		1DD57FAC208266CB00DCD1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8783B9B24CEE4E575045F3 /* Pods-iNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6F4AGE4B2;
-				INFOPLIST_FILE = iNote/Info.plist;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/pavangopal/Desktop/iNote/System files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thequint.iNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
 		1DD57FAE208266CB00DCD1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B928097CF320C780F1D1AF17 /* Pods-iNoteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iNote.app/iNote";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6F4AGE4B2;
 				INFOPLIST_FILE = iNoteTests/Info.plist;
@@ -469,15 +730,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNote.app/iNote";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "arm64 armv7 x86_64 armv7s";
 			};
 			name = Debug;
 		};
 		1DD57FAF208266CB00DCD1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C811B58827A0C01C94AFC0A5 /* Pods-iNoteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iNote.app/iNote";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6F4AGE4B2;
 				INFOPLIST_FILE = iNoteTests/Info.plist;
@@ -486,14 +749,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNote.app/iNote";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALID_ARCHS = "arm64 armv7 x86_64 armv7s";
 			};
 			name = Release;
 		};
 		1DD57FB1208266CB00DCD1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BFBBEE03407C06D2B84105 /* Pods-iNoteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6F4AGE4B2;
 				INFOPLIST_FILE = iNoteUITests/Info.plist;
@@ -508,6 +774,7 @@
 		};
 		1DD57FB2208266CB00DCD1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050A307BD29EC2CE9875F7E0 /* Pods-iNoteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
