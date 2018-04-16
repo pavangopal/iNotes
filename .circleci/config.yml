@@ -8,7 +8,7 @@ jobs:
 
     # Specify the Xcode version to use
     macos:
-      xcode: "9.2"
+      xcode: "9.2.0"
 
     steps:
       - checkout
@@ -18,7 +18,7 @@ jobs:
           name: Install CocoaPods
           command: pod install
 
-      # Build the app and run tests
+      # Build the app and run test-results
       - run:
           name: Build and run tests
           command: fastlane scan
