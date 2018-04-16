@@ -50,8 +50,6 @@ class iNoteTests: XCTestCase {
         viewModel.getData()
         
         XCTAssert(viewModel.notes.count == notesCount, "Pass")
-        
-        
     }
     
     func testNoteCreation(){
