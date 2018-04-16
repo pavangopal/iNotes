@@ -11,7 +11,7 @@ jobs:
       xcode: "9.2.0"
 
     steps:
-      - checkout
+      - checkout CI_Testing
 
       # Install CocoaPods
       - run:
