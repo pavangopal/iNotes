@@ -20,7 +20,7 @@ class NoteListController: UIViewController{
         tableView.dataSource = self
         return tableView
     }()
-
+ 
     var viewModel =  ViewModel()
     
     override func viewDidLoad() {
