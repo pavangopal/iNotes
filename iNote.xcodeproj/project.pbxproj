@@ -10,6 +10,8 @@
 		1D77020120826F4700FB6A36 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77020020826F4700FB6A36 /* Anchor.swift */; };
 		1D770206208278F100FB6A36 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D770205208278F100FB6A36 /* NoteCell.swift */; };
 		1D77020820828C9500FB6A36 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77020720828C9500FB6A36 /* ViewModel.swift */; };
+		1D88A4D32084BA4100B5BFF1 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D88A4D12084BA4100B5BFF1 /* Crashlytics.framework */; };
+		1D88A4D42084BA4100B5BFF1 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D88A4D22084BA4100B5BFF1 /* Fabric.framework */; };
 		1D8ECF8320829E9D007CCD3B /* AddNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8ECF8220829E9D007CCD3B /* AddNoteController.swift */; };
 		1D8ECF8520829F75007CCD3B /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8ECF8420829F75007CCD3B /* AddNoteViewModel.swift */; };
 		1DD57F83208266CA00DCD1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57F82208266CA00DCD1BB /* AppDelegate.swift */; };
@@ -48,6 +50,8 @@
 		1D77020020826F4700FB6A36 /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
 		1D770205208278F100FB6A36 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		1D77020720828C9500FB6A36 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1D88A4D12084BA4100B5BFF1 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		1D88A4D22084BA4100B5BFF1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		1D8ECF8220829E9D007CCD3B /* AddNoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteController.swift; sourceTree = "<group>"; };
 		1D8ECF8420829F75007CCD3B /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
 		1DD57F7F208266CA00DCD1BB /* iNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +84,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD986EC2083D69E00A703BE /* Pods_iNoteTests.framework in Frameworks */,
+				1D88A4D32084BA4100B5BFF1 /* Crashlytics.framework in Frameworks */,
 				68EC47C3368F9B8C9FE6B75E /* Pods_iNote.framework in Frameworks */,
+				1D88A4D42084BA4100B5BFF1 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +121,8 @@
 		1DD57F76208266CA00DCD1BB = {
 			isa = PBXGroup;
 			children = (
+				1D88A4D12084BA4100B5BFF1 /* Crashlytics.framework */,
+				1D88A4D22084BA4100B5BFF1 /* Fabric.framework */,
 				1DD57F81208266CA00DCD1BB /* iNote */,
 				1DD986EB2083CE7600A703BE /* System files */,
 				1DD57F99208266CB00DCD1BB /* iNoteTests */,
@@ -231,6 +239,7 @@
 				1DD57F7D208266CA00DCD1BB /* Resources */,
 				709EB2DCC47C13AF6614E1E3 /* [CP] Embed Pods Frameworks */,
 				CFA855AF13271209861AA34C /* [CP] Copy Pods Resources */,
+				1D88A4D02084BA1F00B5BFF1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -409,6 +418,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		1D88A4D02084BA1F00B5BFF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run a0940054c98641cbd0587adfd27dca13d39abb0e 2a7934831a91e9700027ecb49360f348a23b4bbfa186197d293b5f98b03abf05\n";
 		};
 		709EB2DCC47C13AF6614E1E3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -686,6 +708,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6F4AGE4B2;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "System files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -706,6 +732,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K6F4AGE4B2;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "System files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
